@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Tools & Git/Aula Git/Project1/Project1-1/HTML-CSS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../html-calendar"
+		},
+		{
+			"path": "../html-table"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-newspaper-article"
+	}
+}
