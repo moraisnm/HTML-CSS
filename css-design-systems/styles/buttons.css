@@ -1,0 +1,12 @@
+button {
+    padding: 15px 30px;
+    background-color: #3d5bef;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    }
+    
+.blue_4 {
+    background-color: rgb(198, 190, 190); 
+}

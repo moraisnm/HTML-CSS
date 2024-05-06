@@ -1,0 +1,22 @@
+.avatar {
+    display: block;
+}
+.avatar--b {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+}
+.avatar--m {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+}
+.avatar--s {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+.avatar img {
+    width: 100%;
+    border-radius: inherit;
+}
