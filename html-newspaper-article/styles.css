@@ -1,31 +1,74 @@
+/* css newspaper-article */
+
 html,
 body {
     margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-/* span {
-    text-align: center;
-    display: block;
-} */
+}
 
 main {
     width: 800px;
     margin: 64px auto;
+}
 
+.date {
+    text-align: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img,
 video {
+    padding: 12px;
     width: 100%;
 }
 
-p {
-    line-height: 150%;
+a {
+    color: rgb(56, 56, 165);
+    text-decoration: none;
 }
 
-a {
-    color: rgb(19, 19, 90);
-    text-decoration: none;
+p {
+    margin: 0px;
+}
+
+.soundproof {
+    margin-bottom: 40px;
+}
+
+/* css form */ 
+
+.form_field {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 24px 0;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+input {
+    width: 800px;
+    height: 20px;
+}
+
+button {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #3d5bef;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: green;
 }
