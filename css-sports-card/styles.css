@@ -1,0 +1,126 @@
+@import url(‘https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap’);
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(226,21,21,1) 0%, rgba(115,23,142,1) 54%, rgba(40,22,217,1) 100%);
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+
+    }
+  
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white;
+    }
+    
+.container {
+    box-sizing: border-box;
+    height: 80%;
+    background: linear-gradient(74deg, rgba(224,52,35,1) 0%, rgba(254,125,0,1) 58%);
+    border-radius: 8px 8px 0 0;
+    }
+
+.container_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+.container_header img {
+        height: 20px;
+        padding: 12px;
+    }
+   
+.container_header span {
+    color:white;
+    padding: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    }
+
+.container_middle {
+    color: white;
+    overflow: hidden;
+    }
+
+.container_air button {
+    padding: 10px 40px;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    right: -90px;
+    }
+
+button:hover {
+    background-color: #1dc230;
+    }
+    
+.run{
+    color:grey;
+    font-size: 15px;
+    position: relative;
+    right: -60px;
+    margin: 7px;
+  }
+
+.title {
+    margin: 0;
+    margin-left:10px;
+}
+
+.description {
+    margin: 0;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  
+  .air {
+    font-size: 170px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.50;
+    letter-spacing: 35px;
+    font-weight: 400px;
+    left: 20px;
+    top: 15px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+
+.run {
+    color: lightgrey;
+    letter-spacing: 6px;
+    font-size: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    left: 40px;
+
+}
+
+.sneaker{
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.sapatilha {
+  width: 350px;
+  height: 350px;
+}
+
