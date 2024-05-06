@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$clr1: yellow;
+$clr2: white;
+$clr3: blue;
+$bg-clr1: black;
+$bg-clr2: white;
+$ft-sz1: 40px;
+$ft-sz2: 24px;
+$ft-sz3: 16px;
+$ft-sz4: 14px;
+$ft-sz5: 12px;
+
+html, 
+    body {
+    // margin-inline: auto 430px 768px;
+    // width: auto;
+    margin: 0 auto;
+    min-width: 430px; 
+    color: $clr2;
+    background-color: $bg-clr1;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    color: $clr1;
+    .h1{
+        font-size: $ft-sz1;
+        font-weight: bold;
+    }
+    .txt1 {
+        font-size: $ft-sz2;
+        font-style: italic;
+    }
+}
+
+.container {
+    color: $clr2;
+    .links {
+        display: flex;
+        gap: 10px;
+        font-size: $ft-sz3;
+        font-weight: bold;
+    }
+    .cards {
+    background-color: darkgray;
+    font-size: $ft-sz4;
+    font-weight: bold;
+    }
+    .txt2 {
+        font-weight: normal;
+    }
+    .date {
+        color: $clr3;
+        font-size: $ft-sz5;
+    }
+    .pic {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+.footer {
+    padding: 20px;
+    color: $clr1;
+    font-size: $ft-sz3;
+    font-weight: bold;
+}
