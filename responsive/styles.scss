@@ -12,67 +12,227 @@ $ft-sz4: 14px;
 $ft-sz5: 12px;
 
 html, 
-    body {
-    // margin-inline: auto 430px 768px;
-    // width: auto;
+  body {
     margin: 0 auto;
-    min-width: 430px; 
     color: $clr2;
     background-color: $bg-clr1;
     font-family: "Inter", sans-serif;
 }
 
+
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 50px;
 }
+
 
 .header {
-    color: $clr1;
-    .h1{
-        font-size: $ft-sz1;
-        font-weight: bold;
+  color: $clr1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  
+  .h1{
+    font-size: $ft-sz1;
+    font-weight: bold;
+    padding: 24px 0 24px 0;
+    max-width: 768px;
+    font-size: $ft-sz1;
+    font-weight: 600;
     }
-    .txt1 {
-        font-size: $ft-sz2;
-        font-style: italic;
+  
+  .txt1 {
+    font-size: $ft-sz2;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 60px 0;
+    font-weight: 400;
+    max-width: 600px;
     }
 }
+
 
 .container {
+  color: $clr2;
+  display: flex;
+  flex-direction: column;
+   max-width: 1000px;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  
+  .links {
     color: $clr2;
-    .links {
-        display: flex;
-        gap: 10px;
-        font-size: $ft-sz3;
-        font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: $ft-sz3;
+    font-weight: bold;
+    padding: 9px 0px 9px 0px;
     }
-    .cards {
-    background-color: darkgray;
+
+  .cards {
+    background-color: #404040;
     font-size: $ft-sz4;
     font-weight: bold;
-    }
-    .txt2 {
-        font-weight: normal;
-    }
-    .date {
-        color: $clr3;
-        font-size: $ft-sz5;
-    }
-    .pic {
-        height: 100px;
-        width: 100px;
+    display: flex;
+    gap: 12px;
+    max-width: 900px;
+    padding-top: 24px;
+    .card1, .card2,
+      .card3, .card4 {
+        display: flex;
+        background-color: #404040;
+        max-height: 313px;
+        border-radius: 8px;
+        border: 1px solid #5E5E5E;
+        flex-grow: 1;
+        padding: 16px;
+        flex-direction: column;
+      }
+    .the_right{
+        color: $clr1;
+      }
     }
 }
 
+.h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  padding: 12px 0px 2px 0px;
+}
+
+.txt2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 12px 0 0 0;
+  width: 189px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.date {
+  color: $clr3;
+  font-size: $ft-sz5;
+  margin: 0;
+  padding:  16px 0px 7px 0px;
+  font-weight: 600;
+  line-height: 14.52px;
+}
+
+.pic {
+  height: 100px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 .footer {
-    padding: 20px;
-    color: $clr1;
-    font-size: $ft-sz3;
-    font-weight: bold;
+  padding: 9px 0px 9px 0px;
+  font-size: $ft-sz3;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: transparent;
+}
+
+
+@media screen and (max-width: 768px){
+  
+  body {
+    height: 130vh;
+    justify-content: unset;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+  }
+
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .the_right { 
+  color: transparent;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card1, .card2,
+   .card3, .card4 {
+    height: 124px;
+    width: 100%;
+    flex-direction: row;
+    gap: 12px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 6px 12px 6px;
+  }
+
+  .h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 72%;
+    font-size: 8px;
+    color: transparent;
+  }
+
+  .txt2 {
+    padding: 0;
+    width: 95%;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+
+  .date {
+    margin: 5px 0px 0px 0px;
+  }
+
+  img {
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    left: -12px;
+  }
+
+  .footer f{
+    color: $clr1; 
+    position: absolute;
+    display: flex;
+    }
 }

@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../animations"
+		},
+		{
+			"path": "../card"
+		},
+		{
+			"path": "../css-design-systems"
+		},
+		{
+			"path": "../css-flags"
+		},
+		{
+			"path": "../css-navy-battle"
+		},
+		{
+			"path": "../css-sports-card"
+		},
+		{
+			"path": "../html-calendar"
+		},
+		{
+			"path": "../html-newspaper-article"
+		},
+		{
+			"path": "../html-table"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
