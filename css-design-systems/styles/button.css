@@ -1,0 +1,269 @@
+/* Les Buttons */
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.bluey,
+.whitey,
+.red,
+.greenie{
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 20rem;
+    padding: 10px;
+}
+
+.default,
+.hover,
+.press,
+.disabled{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 10px;
+   flex-wrap: wrap;
+   width: 20rem;
+   padding: 8px;
+}
+
+
+/* Bluey, the button */
+
+.dft-bluey-one{
+    background-color: var(--primary-10);
+    border-radius: 5px;
+    border: 0px;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    cursor: pointer;  
+  }
+  .dft-bluey-two, 
+  .dft-bluey-three{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--primary);
+      border-radius: 5px;
+      border: 0px;
+      gap: 8px;
+      width: 6vw;
+      height: 5vh;
+      color: white;
+      cursor: pointer; 
+  }
+  
+  .dft-bluey-two:hover,
+  .dft-bluey-three:hover{
+      background-color: var(--primary-10);   
+  }
+
+  .dsb-bluey-one{
+    background-color: var(--neutral-gray);
+    border-radius: 5px;
+    border: 0px;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    cursor: pointer;
+}
+
+.dsb-bluey-two, 
+  .dsb-bluey-three{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--neutral-gray);
+      border-radius: 5px;
+      border: 0px;
+      gap: 8px;
+      width: 6vw;
+      height: 5vh;
+      color: white;
+      cursor: pointer; 
+  }
+
+  /* whitey, the button */
+
+  .dft-whitey-one{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--primary-10);
+    width: 4vw;
+    height: 5vh;
+    color: var(--primary-10); 
+    cursor: pointer; 
+}
+  
+.dft-whitey-two, 
+.dft-whitey-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-color: var(--primary-10);
+    border-radius: 5px;
+    border: 2px solid;
+    gap: 8px;
+    width: 6vw;
+    color: var(--primary-10);
+    height: 5vh;
+    cursor: pointer; 
+}
+
+.dft-whitey-two:hover,
+.dft-whitey-three:hover{
+    background-color: var( --neutral-gray);   
+}
+
+.dsb-whitey-one{
+    background-color: var(--neutral-gray);
+    border-radius: 5px;
+    border: 1px;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    cursor: pointer;
+}
+
+.dsb-whitey-two, 
+  .dsb-whitey-three{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 5px;
+      border: 2px solid var(--neutral-gray);
+      gap: 8px;
+      width: 6vw;
+      height: 5vh;
+      color: var(--neutral-gray);
+      cursor: pointer; 
+  }
+
+
+/* Red, the button */
+
+.dft-red-one{
+    border-radius: 5px;
+    background-color: var(--red);
+    border: 2px solid;
+    border-color: var(--red);
+    width: 4vw;
+    height: 5vh;
+    color: var(--neutral); 
+    cursor: pointer;  
+}
+  
+.dft-red-two, 
+.dft-red-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--red);
+    border-color: var(--red);
+    border-radius: 5px;
+    border: 0px;
+    gap: 8px;
+    width: 6vw;
+    color: var(--neutral);
+    height: 5vh;
+    cursor: pointer; 
+}
+
+.dft-red-two:hover,
+.dft-red-three:hover{
+    background-color: var(--red-10);   
+}
+
+.dsb-red-one{
+    background-color: var(--neutral-gray);
+    border-radius: 5px;
+    border: 0px;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    cursor: pointer;
+}
+
+.dsb-red-two, 
+  .dsb-red-three{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--neutral-gray);
+      border-radius: 5px;
+      border: 0px;
+      gap: 8px;
+      width: 6vw;
+      height: 5vh;
+      color: white;
+      cursor: pointer; 
+  }
+
+
+/* Greenie, the button */
+
+.dft-greenie-one{
+    border-radius: 5px;
+    background-color:var(--green);
+    border: 2px solid;
+    border-color: var(--green);
+    width: 4vw;
+    height: 5vh;
+    color: var(--black);  
+    cursor: pointer; 
+}
+  
+.dft-greenie-two, 
+.dft-greenie-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--green);
+    border-color: var(--green);
+    border-radius: 5px;
+    border: 0px;;
+    gap: 8px;
+    width: 6vw;
+    color: var(--black);
+    height: 5vh;
+    cursor: pointer; 
+}
+
+.dft-greenie-two:hover,
+.dft-greenie-three:hover{
+    background-color: var(--green-10); 
+    color: var(--neutral);  
+}
+
+.dsb-greenie-one{
+    background-color: var(--neutral-gray);
+    border-radius: 5px;
+    border: 0px;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    cursor: pointer;
+}
+
+.dsb-greenie-two, 
+  .dsb-greenie-three{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--neutral-gray);
+      border-radius: 5px;
+      border: 0px;
+      gap: 8px;
+      width: 6vw;
+      height: 5vh;
+      color: white;
+      cursor: pointer; 
+  }

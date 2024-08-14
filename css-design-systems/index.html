@@ -2,57 +2,187 @@
 	Documentation: 
 	https://www.figma.com/file/udWyes5Zfj14qQDmD6oUzL/Edit---Design-Systems?type=design&node-id=2%3A783&mode=dev&t=RszSJCDWvtv4ecS1-1
  -->
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Design System</title>
-		<link rel="stylesheet" href="styles/globals.css" />
-		<link rel="stylesheet" href="styles/avatars.css" />
-		<link rel="stylesheet" href="styles/buttons.css" />
-	</head>
-	<body>
-		<div class="wrapper">
-			<h3 class="wrapper__title">Avatars</h3>
-			<div class="wrapper__content">
-				<div class="flex">
-					<!-- Conteúdo aqui -->
-					<a class="avatar avatar--b" href="">
-						<img src="./assets/user.jpeg" alt="">
-					</a>
-					<a class="avatar avatar--m" href="">
-						<img src="./assets/user.jpeg" alt="">
-					</a>
-					<a class="avatar avatar--s" href="">
-						<img src="./assets/user.jpeg" alt="">
-					</a>
-			</div>
-
-		<div class="wrapper">
-			<h3 class="wrapper__title">Buttons</h3>
-			<div class="wrapper__content">
-				<div class="flex">
-					<!-- Conteúdo aqui -->
-			<button class="blue_1">Label</button>
-			<button class="blue_2">Label</button>
-			<button class="blue_3">Label</button>
-			<button class="blue_4">Label</button>
-			</div>
-			</div>
-		</div>
-
-		<div class="wrapper">
-			<h3 class="wrapper__title">Inputs</h3>
-			<div class="wrapper__content">
-				<div class="flex">
-					<!-- Conteúdo aqui -->
-				</div>
-			</div>
-		</div>
-	</body>
-	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-	<script>
-		feather.replace();
-	</script>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+	 <head>
+		 <meta charset="UTF-8" />
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		 <title>Design System</title>
+		 <link rel="stylesheet" href="styles/globals.css" />
+		 <link rel="stylesheet" href="styles/avatar.css" />
+		 <link rel="stylesheet" href="styles/button.css" />
+		 <link rel="stylesheet" href="styles/input.css" />
+	 </head>
+	 <body>
+		 <div class="wrapper">
+			 <h3 class="wrapper__title">Avatars</h3>
+			 <div class="wrapper__content">
+				 <div class="flex">
+					 <!-- Conteúdo aqui -->
+					  
+						 <a class="avatar avatar--b" href="">
+							 <img src="./assets/user.jpeg" alt="">
+						 </a>
+						 <a class="avatar avatar--m" href="">
+							 <img src="./assets/user.jpeg" alt="">
+						 </a>
+						 <a class="avatar avatar--s" href="">
+							 <img src="./assets/user.jpeg" alt="">
+						 </a>
+				 </div>
+			 </div>
+		 </div>
+ 
+		 <div class="wrapper">
+			 <h3 class="wrapper__title">Buttons</h3>
+			 <div class="wrapper__content">
+				 <div class="flex">
+					 <!-- Conteúdo aqui -->
+ 
+					 <div class="buttons">
+						 <div class="bluey">
+							 <div class="default">								
+								 <button class="dft-bluey-one">Label</button>
+								 <button class="dft-bluey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-bluey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="hover">								
+								 <button class="dft-bluey-one">Label</button>
+								 <button class="dft-bluey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-bluey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="press">								
+								 <button class="dft-bluey-one">Label</button>
+								 <button class="dft-bluey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-bluey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="disabled">								
+								 <button class="dsb-bluey-one">Label</button>
+								 <button class="dsb-bluey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dsb-bluey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>																														
+						 </div>
+ 
+						 <div class="whitey">
+							 <div class="default">
+								 <button class="dft-whitey-one">Label</button>
+								 <button class="dft-whitey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-whitey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="hover">
+								 <button class="dft-whitey-one">Label</button>
+								 <button class="dft-whitey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-whitey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="press">
+								 <button class="dft-whitey-one">Label</button>
+								 <button class="dft-whitey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-whitey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="disabled">
+								 <button class="dsb-whitey-one">Label</button>
+								 <button class="dsb-whitey-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dsb-whitey-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>						
+						 </div>
+ 
+						 <div class="red">
+							 <div class="default">
+								 <button class="dft-red-one">Label</button>
+								 <button class="dft-red-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-red-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="hover">
+								 <button class="dft-red-one">Label</button>
+								 <button class="dft-red-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-red-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="press">
+								 <button class="dft-red-one">Label</button>
+								 <button class="dft-red-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-red-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="disabled">
+								 <button class="dsb-red-one">Label</button>
+								 <button class="dsb-red-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dsb-red-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+						 </div>
+ 
+						 <div class="greenie">
+							 <div class="default">
+								 <button class="dft-greenie-one">Label</button>
+								 <button class="dft-greenie-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-greenie-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="hover">
+								 <button class="dft-greenie-one">Label</button>
+								 <button class="dft-greenie-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-greenie-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="press">
+								 <button class="dft-greenie-one">Label</button>
+								 <button class="dft-greenie-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dft-greenie-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>
+							 <div class="disabled">
+								 <button class="dsb-greenie-one">Label</button>
+								 <button class="dsb-greenie-two"><i class="icon" data-feather="zap"></i>Label</button>
+								 <button class="dsb-greenie-three">Label<i class="icon" data-feather="zap"></i></button>	
+							 </div>							
+						 </div>		
+					 </div>
+					 
+				 </div>
+			 </div>
+		 </div>
+		 <div class="wrapper">
+			 <h3 class="wrapper__title">Inputs</h3>
+			 <div class="wrapper__content">
+				 <div class="flex">
+					 <!-- Conteúdo aqui -->
+					  
+					 <div class="form">						
+						 <div class="inputs-one">
+							 <label for="input-field">Field Label</label>					  
+							 <input type="text" name="input-field" placeholder="Placeholder">					  
+						 </div>
+						 <div class="inputs-two">
+							 <label for="input-field">Field Label</label>					  
+							 <input type="text"name="input-field" placeholder="Placeholder">					  
+							 <i class="icon-search" data-feather="search"></i>
+						 </div>
+						 <div class="inputs-three">
+							 <label for="input-field">Field Label</label>					  
+							 <input  type="text"name="input-field" placeholder="Placeholder">
+							 <i class="icon-search-left" data-feather="search"></i>					  
+						 </div>			
+					 </div>
+					 <div class="form-two">						
+						 <div class="inputs-one">
+							 <label for="input-field">Field Label</label>					  
+							 <input type="text" name="input-field" placeholder="Placeholder">
+							 <p>Error Label</p>							
+						 </div>
+						 <div class="inputs-two">
+							 <label for="input-field">Field Label</label>					  
+							 <input type="text"name="input-field" placeholder="Placeholder">
+							 <i class="icon-search" data-feather="search"></i>
+							 <p>Error Label</p>					  
+						 </div>
+						 <div class="inputs-three">
+							 <label for="input-field">Field Label</label>					  
+							 <input type="text"name="input-field" placeholder="Placeholder">
+							 <i class="icon-search-left" data-feather="search"></i>
+							 <p>Error Label</p>					  
+						 </div>						
+					 </div>	
+				 </div>
+			 </div>
+		 </div>
+	 </body>
+	 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	 <script>
+		 feather.replace();
+	 </script>
+ </html>
